@@ -1,1 +1,107 @@
-<!doctype html><html><head><meta charset="utf-8"/><title>Podyganov Konstantin</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="main.254aac177db80647f0dc.css" rel="stylesheet"></head><body><div class="header"><div class="avatar"><img src="https://avatars.githubusercontent.com/u/52314985?s=460&u=77c6b1fefc9045ad522b2778b67037bff4f509f4&v=4" alt="" class="avatar-image"/></div><h1 class="page-title">K-Podyganov</h1></div><div class="content"><div class="card"><h3 class="card-title">My skills</h3><div class="card-content"><ul><li>Robotics</li><li>Microcontrollers</li><li>Gamedev</li><li>Web Design</li><li>Frontend / Backend</li></ul></div></div><div class="card"><h3 class="card-title">Projects</h3><div class="card-content"><ul><li><a href="https://github.com/kyborq/react-env">React Environment</a></li><li><a href="https://github.com/kyborq/react-routing-env">React Environment with Routing</a></li><li><a href="https://github.com/kyborq/vanilla-js-env">JavaScript Environment</a></li></ul></div></div><div class="card"><h3 class="card-title">Social</h3><div class="card-content"><ul><li><a href="https://github.com/kyborq/">Github</a></li><li><a href="https://vk.com/podyganovk">VK</a></li><li><a href="https://www.instagram.com/kyborq/">Instagram</a></li><li>k.podyganov@mail.ru</li></ul></div></div><div class="footer"><p class="footer-text">Very very simple web page created in 2021</p></div><script src="bundle.js"></script></div></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Podyganov Konstantin</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section class="page-section center" id="home">
+      <div class="page-logo">
+        <img
+          src="https://avatars.githubusercontent.com/u/52314985?s=460&u=77c6b1fefc9045ad522b2778b67037bff4f509f4&v=4"
+          alt=""
+          class="logo-picture rounded"
+        />
+        <h1 class="logo-text">Podyganov-K</h1>
+      </div>
+
+      <article class="text-card">
+        Привет! Меня зовут Константин. Я обожаю минимализм, ну и
+        программирование тоже ;)
+      </article>
+
+      <nav class="page-nav">
+        <a href="#about" class="nav-link">Обо мне</a>
+      </nav>
+    </section>
+
+    <section class="page-section center" id="about">
+      <h2 class="section-title">Обо мне</h2>
+      <div class="carousel-container" id="about-carousel">
+        <div class="carousel-slide">
+          <h3>2014</h3>
+          <article class="text-card">
+            Не умел программировать. Но посетила мысль создать свою игру. Тогда
+            я нашел много инструментов позволяющих их делать без написания кода.
+            Создал платформер, который медленно обновляю до сих пор:
+            <a href="https://vu-indie.itch.io/gravity-lab">GravityLAB</a>
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>2015</h3>
+          <article class="text-card">
+            Начал интересоваться робототехникой, ходил в клуб по робототехнике.
+            Писал программы для простых алгоритмов, и всякий раз, когда мне не
+            нравилась моя программа, я ее переписывал, снова и снова, доводя ее
+            до идеала
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>2016</h3>
+          <article class="text-card">
+            Решил пойти в колледж на программиста, потому что почему бы и нет?
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>2018</h3>
+          <article class="text-card">
+            За это время я успел поучаствовать в различных соревнованиях по
+            робототехнике, стал хорошо понимать программирование и стал
+            преподавать уже в
+            <a href="https://vk.com/maribot12">центре робототехники</a>
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>2019</h3>
+          <article class="text-card">
+            В колледже я познакомился с PHP, на нем удостоилось писать курсовую
+            работу на тему "социальная сеть", она была очень простой, хоть и
+            багованной, но я гордился своим творением. На этом языке я продолжил
+            писать небольшие сайты, но они не вышли на свет
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>2020</h3>
+          <article class="text-card">
+            Благодаря курсу по веб-разработке я узнал про ReactJS, на нем же я и
+            написал свою дипломную работу посвященную управлению медицинским
+            центром. Теперь React мой фаворит на века
+          </article>
+        </div>
+        <div class="carousel-slide">
+          <h3>Наше время</h3>
+          <article class="text-card">
+            Сейчас учусь в Волгатех на инженера программиста. Продолжаю писать
+            проекты на React, разрабатывать игры и преподавать курсы по
+            робототехнике.
+          </article>
+        </div>
+      </div>
+      <div class="button-container">
+        <button id="button-past">В прошлое</button>
+        <button id="button-future">В будущее</button>
+      </div>
+    </section>
+
+    <section class="page-section center" id="contact">
+      <h2 class="section-title">Фотография котика</h2>
+      <img src="https://source.unsplash.com/900x600/?cat,kitten" alt="" />
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
