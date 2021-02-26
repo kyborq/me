@@ -60,7 +60,7 @@ body {
   color: #ffffff;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 640px) {
   .logo {
     width: 200px;
   }
