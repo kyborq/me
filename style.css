@@ -67,6 +67,10 @@ body {
     width: 200px;
   }
 
+  .logo-text {
+    font-size: 24px
+  }
+
   .text {
     width: 300px;
   }
